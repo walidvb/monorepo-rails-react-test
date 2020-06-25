@@ -8,7 +8,7 @@ class HelloWorld extends React.Component {
     return (
       <React.Fragment>
         Reversed by dependency: {reverser(this.props.greeting)}
-        {/* <DepComp name={'Rendered by dependency!'}/> */}
+        <DepComp name={'Rendered by dependency!'}/>
       </React.Fragment>
     );
   }
